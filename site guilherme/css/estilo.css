@@ -1,0 +1,124 @@
+body{
+	font-family: Impact, cursive, Chalkduster;
+}
+
+h1, h1, h3{
+	margin: 0;
+	font-family: Comic Sans MS;
+	font-weight: 700;
+}
+p{
+	font-family: OCR A Std;
+}
+.logo img{
+	border-radius: 50%;
+}
+
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #363636;
+	padding: 30px;
+	
+}
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+}
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #FFF;
+}
+@media screen and (min-width: 768px){
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	nav ul{
+		flex-direction: row;
+		width: 70%;
+	}
+	header{
+		height: 600px;
+		height: 60vh;
+	}
+
+}
+header{
+	background-image: url('../img/fundo2.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	color: #FFFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	justify-content: center;
+}
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+}
+
+.container{
+	width: 100%;
+}
+
+#Sobre{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #363636;
+	color: #FFF;
+}
+#Sobre{
+	margin-top: 20px;
+	font-size: 1.0em;
+}
+.foto img{
+	width: 60%;
+}
+.foto{
+	float: left;
+	width: 50%;
+}
+.texto{
+	float: right;
+	width: 50%;
+}
+#Sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+#Sobre h2{
+	text-align: center;
+	width: 100%;
+}
+#Sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 10px;
+
+
+}
