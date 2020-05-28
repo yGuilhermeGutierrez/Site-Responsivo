@@ -119,6 +119,101 @@ header p{
 	flex-grow: 1;
 	flex-basis: 300px;
 	padding: 0 10px;
-
-
+}
+#Especialidades {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+}
+#Especialidades div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 30px;
+}
+#Especialidades p {
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+#Especialidades img {
+	margin: 10px 0;
+}
+#Especialidades h2 {
+	font-size: 2em;
+}
+#Especialidades {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#Especialidades h2 {
+	text-align: center;
+	width: 100%;
+}
+#Especialidades div {
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+}
+#Competências div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#Competências h2 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+#Competências h3 {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#Competências p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+} 
+#Competências a {
+	text-decoration: none;
+}
+#Competências img {
+	width: 15%;
+	margin-bottom: 0;
+}
+#Competências .port p{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	margin-top: 0;
+	font-family: Impact, cursive, Chalkduster;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+#Competências {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+#Competências h2, h3 {
+	width: 100%;
+	text-align: center;
+}
+#Competências .port {
+	width: 33.33%;
+	text-align: center;
 }
